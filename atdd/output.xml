@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot rpa="false" generated="20190610 09:18:40.436" generator="Robot 3.1.2 (Python 2.7.5 on linux2)">
+<suite source="/var/lib/jenkins/atdd/login.success.robot.grid.robot" id="s1" name="Login.Success.Robot.Grid">
+<test id="s1-t1" name="Login fail - testing">
+<kw name="OpenLoginURL Login">
+<kw name="Open Browser">
+<arguments>
+<arg>https://demoapp-dev.192.168.99.100.nip.io/demo/</arg>
+<arg>browser=chrome</arg>
+</arguments>
+<msg timestamp="20190610 09:18:40.470" level="FAIL">No keyword with name 'Open Browser' found.</msg>
+<status status="FAIL" endtime="20190610 09:18:40.470" starttime="20190610 09:18:40.470"></status>
+</kw>
+<status status="FAIL" endtime="20190610 09:18:40.470" starttime="20190610 09:18:40.467"></status>
+</kw>
+<status status="FAIL" endtime="20190610 09:18:40.470" critical="yes" starttime="20190610 09:18:40.466">No keyword with name 'Open Browser' found.</status>
+</test>
+<status status="FAIL" endtime="20190610 09:18:40.471" starttime="20190610 09:18:40.437"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="1" pass="0">Critical Tests</stat>
+<stat fail="1" pass="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="1" id="s1" name="Login.Success.Robot.Grid" pass="0">Login.Success.Robot.Grid</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
